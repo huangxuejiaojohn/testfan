@@ -37,7 +37,7 @@ if __name__ == "__main__":
     testunit.addTest(MyFirstUnit("test_case_num"))
     testunit.addTest(MyFirstUnit("test_case_list"))
     testunit.addTest(MyFirstUnit("test_case_baidu"))
-    filename = 'C:\\Users\\ThinkPad User\\PycharmProjects\\untitled\\20181202\\tryunittest\\BaiduResult2.html'
+    filename = 'F:\\python脚本\\PycharmProjects\\untitled\\mygit\\testfan\\BaiduResult2.html'
     fp = open(filename, 'wb')
     runner =HTMLTestRunner.HTMLTestRunner(
     stream=fp,
